@@ -30,13 +30,13 @@ export const siteConfig: SiteConfig = {
 	date: {
 		locale: "en-AU",
 		options: {
-      weekday: "long",
+      weekday: "short",
 			day: "2-digit",
-			month: "long",
+			month: "2-digit",
 			year: "numeric",
       hour: "2-digit",
       minute: "2-digit",
-      hour12: "false",
+      hour24: "true",
       timeZone: "Australia/Melbourne",
       timeZoneName: "longOffset",
 		},

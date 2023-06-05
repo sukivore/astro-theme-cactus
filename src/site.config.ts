@@ -37,6 +37,8 @@ export const siteConfig: SiteConfig = {
       hour: "2-digit",
       minute: "2-digit",
       hour12: "false",
+      timeZone: "Australia/Melbourne",
+      timeZoneName: "longOffset",
 		},
 	},
 };

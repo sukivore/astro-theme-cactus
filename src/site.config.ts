@@ -36,10 +36,9 @@ export const siteConfig: SiteConfig = {
 			year: "numeric",
       hour: "2-digit",
       minute: "2-digit",
-      second: "2-digit",
       hourCycle: "h24",
       timeZone: "Australia/Melbourne",
-      timeZoneName: "longOffset",
+      timeZoneName: "shortOffset",
 		},
 	},
 };
